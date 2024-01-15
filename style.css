@@ -262,7 +262,7 @@ label #btn,
 
 .project{
     width: 90%;
-    height: 700px;
+    height: auto;
     border: 1px solid red;
     margin: auto;
 }
@@ -276,13 +276,60 @@ label #btn,
 
 .pro-box{
     width: 100%;
-    height: 400px;
+    height: auto;
     border: 1px solid yellow;
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
+    box-sizing: border-box;
+
+}
+
+.pro-box-one{
+    border: 1px solid grey;
+    width: calc(100% / 3 - 30px);
+    margin: 10px;
+    height: auto;
+    padding: 10px;
+    border-radius: 15px;
+    transition: .5s;
+    box-sizing: border-box;
+}
+
+.pro-box-one:hover{
+
+    background-color: #012455;
+    box-shadow: 0 0 2px white;
+    border: 1px solid white;
+}
+
+
+.pro-box-one img{
+    width: 90%;
+    height: 180px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+.pro-box-one h3{
+    text-align: center;
+    color: white;
+}
+
+.pro-box-one p{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.pro-box-one button{
+    display: block;
+    margin: 20px auto 5px;
+    width: 150px;
+    height: 40px;
 }
 
 
