@@ -263,7 +263,7 @@ label #btn,
 .project{
     width: 90%;
     height: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
 }
 
@@ -277,7 +277,7 @@ label #btn,
 .pro-box{
     width: 100%;
     height: auto;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -330,6 +330,20 @@ label #btn,
     margin: 20px auto 5px;
     width: 150px;
     height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    transition: .8s;
+}
+
+.pro-box-one a{
+    text-decoration: none;
+}
+
+.pro-box-one button:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 10px grey;
 }
 
 
@@ -441,7 +455,14 @@ label #btn,
 
     /* proekt */
 
-}
+
+    .pro-box-one{
+        width: calc(100% / 2 - 20px);
+    }
+    .pro-box-one img{
+        height: auto;
+    }
+}   
 
 
 
@@ -582,5 +603,8 @@ label #btn,
         font-size: 30px;
     }
 
+    .pro-box-one{
+        width: 100%;
+    }
 
 }
