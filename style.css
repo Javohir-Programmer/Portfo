@@ -1,0 +1,422 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+body {
+    background: #00183a;
+    /* background: #00183d; */
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    
+}
+
+ul li a {
+    display: block;
+    padding: 10px 20px;
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #00183a;
+    transition: .5s;
+    font-weight: 500;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    margin: 5px 15px;
+}
+
+
+
+ul li a:hover {
+    color: #fff;
+    
+    scale: 1.10;
+    background-color: #00183a;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px black;
+}
+
+ul {
+    display: flex;
+    margin-right: 100px;
+    /* border: 1px solid red; */
+}
+
+h1 {
+    margin: 15px 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #00183a;
+    margin-left: 80px;
+    font-size: 30px;
+    display: block;
+}
+
+/* h1 span {
+    color: #FFCF59;
+} */
+
+label #btn,
+#cancel {
+    position: absolute;
+    font-size: 35px;
+    top: 30px;
+    right: 30px;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/* menu */
+
+.menu{
+    max-width: 90%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+
+.menu-one{
+    margin: 5px;
+    /* width: 500px; */
+    height: auto;
+    /* border: 1px solid yellow; */
+    
+}
+
+.menu-two{
+    margin: 5px;
+    width: 400px;
+    /* border: 1px solid yellow; */
+}
+
+.menu-two img{
+    /* border: 1px solid grey; */
+    width: 100%;
+}
+
+.menu-one h3{
+    font-size: 28px;
+    font-family: poppins;
+    color: white;
+    line-height: 80px;
+}
+
+.menu-one h2{
+    font-size: 40px;
+    color: #fff;
+    line-height: 30px;
+    /* border: 1px solid red; */
+    max-width: 450px;
+}
+
+.menu-one p{
+    color: white;
+    max-width: 500px;
+}
+
+.menu-one .ikon{
+    /* border: 1px solid red; */
+    max-width: 300px;
+    margin-top: 40px;
+}
+
+.menu-one .ikon i:hover{
+    border-radius: 50%;
+    color: white;
+    transition: .8s;
+}
+
+.ikon i{
+    color: white;
+    font-size: 30px;
+    margin: 10px 10px;
+    
+}
+
+.menu-one button{
+    width: 150px;
+    height: auto;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+    font-family: poppins;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.menu-one button:hover{
+    background-color: black;
+    color: white;
+    transition: .8s;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px black;
+}
+
+/* menu */
+
+.box{
+    max-width: 90%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.box .video {
+    width: 380px;
+    height: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 10px;
+} 
+
+.box .video:hover{
+    background-color: #012455;
+    transition: .8s;
+}
+
+.video video{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 700px) {
+    ul{
+        top: 0px;
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        background: white;
+        display: block;
+        right: -100%;
+        transition: 1s;
+        padding-top: 50px;
+        
+    }
+
+    ul li a{
+        margin: 20px 20px;
+        border: 1px solid #00183a;
+    }
+    ul li a:hover{
+        background-color: black;
+        scale: 1;
+    }
+
+    label #btn {
+        display: inline-block;
+        color: #00183a;
+        margin-top: -10px;
+    }
+
+    #check:checked~ul {
+        right: -100px;
+    }
+
+    #check:checked~label #btn {
+        display: none;
+    }
+
+    #check:checked~label #cancel {
+        display: block;
+        color: #00183a;
+        z-index: 1;
+        margin-top: -10px;
+    }
+
+    header{
+        position: relative;
+        z-index: 5;
+    }
+
+    nav h1{
+        margin-left: -50px;
+    }
+
+    /* menu */
+
+    .menu{
+        display: block;
+        flex-flow: column-reverse;
+    }
+
+    .menu-one{
+        display: block;
+        width: 100%;
+        margin: 10px auto 0;
+        text-align: center  ;
+    }
+
+    .menu-one h3{
+        text-align: center;
+        
+    }
+
+    .menu-one h2{
+        margin: auto;
+    }
+
+    .menu-one p{
+        margin: auto;
+    }
+
+    .menu-two{
+        display: block;
+        margin: 30px auto;
+        width: 300px;
+    }
+
+    .ikon{
+        margin: auto;
+    }
+
+    /* menu */
+
+    .box{
+        display: block;
+        margin: auto;
+    }
+
+    .video{
+        margin: 20px auto;
+        position: relative;
+        z-index: 1;
+    }
+
+
+
+    
+}
+
+
+
+
+@media screen and (max-width: 400px) {
+    ul {
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        background: white;
+        display: block;
+        right: -100%;
+        transition: 1s;
+    }
+
+    h1 {
+        font-size: 25px;
+        margin-left: 50px;
+    }
+
+    label #btn {
+        display: inline-block;
+        margin-top: -15px;
+        color: black;
+    }
+
+    #check:checked~ul {
+        right: -100px;
+    }
+
+    #check:checked~label #btn {
+        display: none;
+        
+    }
+
+    #check:checked~label #cancel {
+        display: block;
+        color: black;
+        z-index: 1;
+        margin-top: -15px;
+    } 
+
+    /* menu */
+
+    .menu{
+        display: block;
+        flex-flow: column-reverse;
+        margin: 10px auto;
+    }
+
+    .menu-one{
+        display: block;
+        width: 100%;
+        margin: 10px auto 0;
+        text-align: center  ;
+    }
+
+    .menu-one h3{
+        text-align: center;
+        font-size: 20px;
+        line-height: 60px;
+    }
+
+    .menu-one h2{
+        margin: auto;
+        line-height: 40px;
+        font-size: 30px;
+    }
+
+    .menu-one p{
+        margin: 10px auto;
+        font-size: 16px;
+    }
+
+    .ikon{
+        margin: auto;
+    }
+
+    .ikon i{
+        font-size: 30px;
+    }
+
+    .menu-one button{
+        font-size: 18px;
+    }
+
+    .menu-two{
+        width: 250px;
+        display: block;
+        margin: auto;
+    }
+
+    /* menu */
+
+    .box{
+        display: block;
+        margin: auto;
+    }
+
+    .box .video{
+        width: 300px;
+        margin: 20px auto;
+    }
+
+    .video video{
+        width: 100%;
+    }
+
+}
