@@ -258,6 +258,109 @@ label #btn,
     border-radius: 10px;
 }
 
+/* skil */
+
+.skil{
+    width: 90%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+
+.skil h2{
+    text-align: center;
+    color: white;
+}
+
+.skil-box{
+    /* border: 1px solid yellow; */
+    width: 100%;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.skil-box-one{
+    width: 250px;
+    height: 200px;
+    border: 1px solid grey;
+    margin: 20px 0;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.skil-box-one:hover{
+    background-color: #012455;
+    box-shadow: 0 0 5px white;
+    scale: 1.1;
+}
+
+.skil-box-one i{
+    margin-top: 20px;
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    
+}
+
+.skil-box-one h3{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+
+/* skil-box-2 */
+
+.skil-box-2{
+    /* border: 1px solid yellow; */
+    width: 100%;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns:auto auto;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.skil-box-two{
+    width: 300px;
+    height: 200px;
+    border: 1px solid grey;
+    margin: 20px 0;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.skil-box-two:hover{
+    background-color: #012455;
+    box-shadow: 0 0 5px white;
+    scale: 1.1;
+}
+
+
+.skil-box-two i{
+    margin-top: 20px;
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    
+}
+
+.skil-box-two h3{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+
+
+
 /* project */
 
 .project{
@@ -289,7 +392,7 @@ label #btn,
 .pro-box-one{
     border: 1px solid grey;
     width: calc(100% / 3 - 30px);
-    margin: 10px;
+    margin: 20px 0;
     height: auto;
     padding: 10px;
     border-radius: 15px;
@@ -344,6 +447,13 @@ label #btn,
     background-color: black;
     color: white;
     box-shadow: 0 0 10px grey;
+}
+
+@media screen and (max-width: 800px) {
+    .skil-box{
+        grid-template-columns: auto auto;
+    }
+    
 }
 
 
@@ -461,6 +571,22 @@ label #btn,
     }
     .pro-box-one img{
         height: auto;
+    }
+
+    /* skil */
+
+    .skil-box{
+        grid-template-columns: auto auto;
+    }
+
+    .skil-box-one{
+        width: 200px;
+    }
+
+    /*skil box -2 */
+
+    .skil-box-two{
+        width: 200px;
     }
 }   
 
@@ -605,6 +731,18 @@ label #btn,
 
     .pro-box-one{
         width: 100%;
+    }
+
+    /* skil */
+
+    .skil-box{
+        grid-template-columns:auto;
+    }
+
+    /* skil-box-2 */
+
+    .skil-box-2{
+        grid-template-columns:auto;
     }
 
 }
