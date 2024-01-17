@@ -451,6 +451,27 @@ label #btn,
 
 /* team */
 
+.team{
+    width: 90%;
+    height: auto;
+    border: 1px solid red;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.team-box{
+    width: calc(100% / 3 - 20px );
+    border: 1px solid yellow;
+    height: auto;
+
+}
+
+.team-box img{
+    width: 100%;
+}
 
 
 @media screen and (max-width: 800px) {
@@ -591,6 +612,11 @@ label #btn,
 
     .skil-box-two{
         width: 200px;
+    }
+    /* team */
+
+    .team-box{
+        width: calc(100% / 2 - 20px);
     }
 }   
 
@@ -751,6 +777,12 @@ label #btn,
 
     .skil-box-2{
         grid-template-columns:auto;
+    }
+
+     /* team */
+
+     .team-box{
+        width: calc(100% - 50px);
     }
 
 }
