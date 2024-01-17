@@ -449,6 +449,10 @@ label #btn,
     box-shadow: 0 0 10px grey;
 }
 
+/* team */
+
+
+
 @media screen and (max-width: 800px) {
     .skil-box{
         grid-template-columns: auto auto;
@@ -604,9 +608,13 @@ label #btn,
         transition: 1s;
     }
 
-    h1 {
+    /* h1 {
         font-size: 25px;
         margin-left: 50px;
+    } */
+
+    #h1{
+        margin-left: 0px;
     }
 
     label #btn {
