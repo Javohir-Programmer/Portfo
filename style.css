@@ -454,7 +454,7 @@ label #btn,
 .team{
     width: 90%;
     height: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -463,14 +463,43 @@ label #btn,
 }
 
 .team-box{
-    width: calc(100% / 3 - 20px );
-    border: 1px solid yellow;
+    width: calc(100% / 3 - 50px );
+    border: 1px solid grey;
     height: auto;
-
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .team-box img{
     width: 100%;
+}
+
+.team-box h2{
+    text-align: center;
+    color: white;
+}
+
+.team-box p{
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+
+.team-box button{
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    transition: .8s;
+}
+
+.team-box button:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 10px grey;
 }
 
 
