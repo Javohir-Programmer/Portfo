@@ -6,9 +6,15 @@
     font-family: Poppins;
 }
 
+#sariq{
+    color: #ffc300;
+}
+
 body {
-    background: #00183a;
-    /* background: #00183d; */
+
+    background: #01192f;
+    /* background: #00183a; */
+    
 }
 
 header nav{
@@ -38,9 +44,10 @@ ul li a {
 
 
 ul li a:hover {
-    color: #fff;
+    color: #00183a;
     scale: 1.10;
-    background-color: #00183a;
+    /* background-color: #00183a; */
+    background-color: #ffc300;
     border: 1px solid #fff;
     box-shadow: 0 0 10px black;
 }
@@ -58,6 +65,10 @@ h1 {
     margin-left: 80px;
     font-size: 30px;
     display: block;
+}
+
+h1 span{
+    color: #ffc300;
 }
 
 /* h1 span {
@@ -139,9 +150,9 @@ label #btn,
 
 .menu-one .ikon i:hover{
     border-radius: 50%;
-    color: black;
+    color: #ffc300;
     transition: .8s;
-    text-shadow: 0 0 5px white;
+    text-shadow: 0 0 5px black;
 }
 
 .ikon i{
@@ -165,10 +176,10 @@ label #btn,
 }
 
 .menu-one button:hover{
-    background-color: black;
-    color: white;
+    background-color: #ffc300;
+    color: #00183a;
     transition: .8s;
-    border: 1px solid #fff;
+    border: 1px solid white;
     box-shadow: 0 0 10px black;
 }
 
@@ -444,8 +455,8 @@ label #btn,
 }
 
 .pro-box-one button:hover{
-    background-color: black;
-    color: white;
+    background-color: #ffc300;
+    color: black;
     box-shadow: 0 0 10px grey;
 }
 
@@ -499,8 +510,8 @@ label #btn,
 }
 
 .team-box button:hover{
-    background-color: black;
-    color: white;
+    background-color: #ffc300;
+    color: black;
     box-shadow: 0 0 10px grey;
 }
 
@@ -744,6 +755,10 @@ label #btn,
         width: 250px;
         display: block;
         margin: auto;
+    }
+
+    .menu-two img{
+        margin-top: 30px;
     }
 
     /* menu */
