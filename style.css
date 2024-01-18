@@ -45,11 +45,11 @@ ul li a {
 
 ul li a:hover {
     color: #00183a;
-    scale: 1.10;
+    /* scale: 1.10; */
     /* background-color: #00183a; */
     background-color: #ffc300;
     border: 1px solid #fff;
-    box-shadow: 0 0 10px black;
+    /* box-shadow: 0 0 10px black; */
 }
 
 ul {
