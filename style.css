@@ -543,7 +543,7 @@ label #btn,
         border: 1px solid #00183a;
     }
     ul li a:hover{
-        background-color: black;
+        background-color: #ffc300;
         scale: 1;
     }
 
