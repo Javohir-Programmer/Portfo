@@ -472,6 +472,7 @@ label #btn,
 
 .team-box img{
     width: 100%;
+    height: auto;
 }
 
 .team-box h2{
@@ -483,6 +484,7 @@ label #btn,
     text-align: center;
     color: white;
     margin-top: 15px;
+    padding: 10px;
 }
 
 .team-box button{
