@@ -908,7 +908,7 @@ footer h4{
 
     .info p{
         margin-top: 20px;
-        width: 100%git ;
+        max-width: 100%;
     }
 
     .info-box{
