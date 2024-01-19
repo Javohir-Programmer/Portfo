@@ -207,7 +207,9 @@ label #btn,
 .info p{
     color: white;
     text-align: center;
-    margin-top: 10px;
+    /* border: 1px solid red; */
+    max-width: 75%;
+    margin:10px auto;
 }
 
 .info-box{
