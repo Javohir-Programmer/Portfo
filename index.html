@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
 
@@ -57,10 +58,10 @@
                     <a href="https://facebook.com" target="_blank"><i class='bx bxl-facebook'></i></a>
                 </div>
 
-                <a href="https://forms.gle/xXbcrwhv54Nmh9wa6" target="_blank"><button>Bog'lanish</button></a>
+                <button><a href="#aloqa">Bog'lanish</a></button>
             </div>
 
-          
+
 
             <div class="menu-two" data-aos="flip-left">
                 <img src="profile-pic (2).png" alt="">
@@ -104,7 +105,8 @@
         </div>
 
         <p data-aos="fade-right">
-            Hozirda " IT " sohasida <u id="sariq">Front End dasturchi </u> bo'lib ishlab kelmoqdaman. Shu kungacha 10 dan ortiq
+            Hozirda " IT " sohasida <u id="sariq">Front End dasturchi </u> bo'lib ishlab kelmoqdaman. Shu kungacha 10
+            dan ortiq
             loyihalarda ishlaganman.
             2022- yildan buyon Office dasturlari boyicha dars otib kelmoqdaman. Bugunga qadar 100 dan ortiq shogirtlarni
             yetishtirb chiqarganman.
@@ -259,14 +261,14 @@
         <div class="team">
             <div class="team-box" data-aos="fade-up-right" data-aos-duration="2000">
                 <div class="team-box-img">
-                    <img src="shahzod.jpg" alt=""> 
+                    <img src="shahzod.jpg" alt="">
                 </div>
-                <h2 id="sariq">Olimjonov Shahzod</h2>  
+                <h2 id="sariq">Olimjonov Shahzod</h2>
                 <p>
-                    Front End Dasturchi. 
-                </p>  
-                    
-                <button>Portfolio</button>
+                    Front End Dasturchi.
+                </p>
+
+                <a href="https://olimjonovdev.vercel.app/"><button>Portfolio</button></a>
             </div>
 
             <div class="team-box" data-aos="fade-up-right" data-aos-duration="2000">
@@ -275,23 +277,23 @@
                 </div>
                 <h2 id="sariq">Rustamov Doniyor</h2>
                 <p>
-                    Back End Dasturchi. 
+                    Back End Dasturchi.
                 </p>
-                
-                <button>Portfolio</button>
+
+                <a href="https://doniyordev.uz/"><button>Portfolio</button></a>
             </div>
 
             <div class="team-box" data-aos="fade-up-right" data-aos-duration="2000">
                 <div class="team-box-img">
                     <img src="shahriyor aka foto.jpg" alt="">
                 </div>
-                
+
                 <h2 id="sariq">Xudoyorov Shahriyor</h2>
                 <p>
                     Full Stack Dasturchi.
                 </p>
-              
-                <button>Portfolio</button>
+
+                <a href="https://www.shahriyordev.uz/"><button>Portfolio</button></a>
             </div>
         </div>
 
@@ -299,9 +301,10 @@
 
     <br id="aloqa"><br><br>
 
-    <div  class="aloqa">
+    <div class="aloqa">
         <h1 id="sariq" data-aos="fade-up-right">Men bilan Bog'lanish</h1>
-        <p data-aos="fade-up-right">Agarda siz ham o'z biznesingiz uchun web site yasatmoqchi bo'lsangiz men bilan bog'laning !</p>
+        <p  data-aos="fade-up-right">Agarda siz ham o'z biznesingiz uchun web site yasatmoqchi bo'lsangiz men bilan
+            bog'laning !</p>
         <br>
         <div class="aloqa-box">
             <div class="aloqa-box-one" data-aos="fade-right">
@@ -322,6 +325,22 @@
                 <h4>jabduraimov2002@gmail.com</h4>
             </div>
         </div>
+
+        <br><br>
+
+        <div class="login_form">
+            <form action="" onsubmit=" return sendtelegram()">
+                <div class="login_form_input">
+                    <input type="text" name="name" id="name" placeholder="Ismingiz" required>
+                    <input type="number" name="email" id="email" placeholder="Telefon nomeringizni kiriting" required>
+                    <input name="matn" id="matn" placeholder="Savolingiz ?" required>
+                    <input name="telegram" id="tg" placeholder="tg user name" required>
+                    <!-- <input type="submit" value="Yuborish" id="btn"> -->
+                </div>
+                <br><br>
+                <button id="btn">Yuborish</button>
+            </form>
+        </div>
     </div>
     <br><br>
 
@@ -333,6 +352,7 @@
 
 
 
+    <script src="scriptbot.js"></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 

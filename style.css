@@ -174,6 +174,10 @@ label #btn,
     font-family: poppins;
     border: 1px solid white;
     cursor: pointer;
+    text-decoration: none;
+}
+.menu-one button a{
+    text-decoration: none;
 }
 
 .menu-one button:hover{
@@ -484,6 +488,10 @@ label #btn,
     overflow: hidden;
 }
 
+.team-box a{
+    text-decoration: none;
+}
+
 .team-box img{
     width: 100%;
     height: auto;
@@ -536,6 +544,32 @@ label #btn,
 .aloqa p{
     text-align: center;
     color: white;
+}
+
+
+.login_form button{
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 40px;
+    background-color: #ffc300;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+}
+
+.login_form_input{
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.login_form_input input{
+    width: 250px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    margin: 5px 20px;
 }
 
 .aloqa-box{
@@ -776,6 +810,19 @@ footer h4{
         width: calc(100% / 2 - 30px);
         
     }
+
+    /* login form */
+    
+    .login_form_input input{
+        width: 200px;
+        margin: 5px 10px;
+    }
+
+    .login_form button{
+        width: 200px;
+    }
+
+
 }   
 
 
@@ -973,5 +1020,17 @@ footer h4{
     footer h3{
         padding-top: 25px;
     }
+
+    /* login form */
+    
+    .login_form_input input{
+        width: 90%;
+        margin: 5px 10px;
+    }
+
+    .login_form button{
+        width: 150px;
+    }
+
 
 }
