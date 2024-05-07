@@ -384,7 +384,7 @@ label #btn,
 .project{
     width: 90%;
     height: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
 }
 
@@ -471,7 +471,7 @@ label #btn,
 .js-box{
     width: 100%;
     height: auto;  /*auto */
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -489,6 +489,14 @@ label #btn,
     transition: .5s;
     box-sizing: border-box;
 }
+
+.js-box-one:hover{
+
+    background-color: #012455;
+    box-shadow: 0 0 2px white;
+    border: 1px solid white;
+}
+
 
 .js-box-one img{
     width: 90%;
@@ -847,6 +855,16 @@ footer h4{
         height: auto;
     }
 
+    /* js-box */
+
+    .js-box-one{
+        width: calc(100% / 2 - 20px);
+    }
+    .js-box-one img{
+        height: auto;
+    }
+
+
     /* skil */
 
     .skil-box{
@@ -1042,6 +1060,16 @@ footer h4{
     }
 
     .pro-box-one{
+        width: 100%;
+    }
+
+    /* js-box */
+
+    .project h1{
+        font-size: 30px;
+    }
+
+    .js-box-one{
         width: 100%;
     }
 
