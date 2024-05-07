@@ -1076,26 +1076,39 @@ footer h4{
     /* skil */
 
     .skil-box{
+        justify-content: space-between;
         grid-template-columns:auto auto;
+        /* border: 1px solid red; */
+        width: 100%;
     }
 
     .skil-box-one{
-        width: 170px;
+        width: 150px;
+    }
+    .skil-box-one h3{
+        font-size: 25px;
     }
     /* skil-box-2 */
 
+    .skil-box-2{
+        /* border: 1px solid red; */
+        justify-content: space-between;
+    }
+
     .skil-box-two{
-        width: 170px;
+        width: 150px;
         padding: 10px;
         height: auto;
         box-sizing: border-box;
+        
     }
+
 
     .skil-box-2{
         grid-template-columns:auto auto;
     }
 
-     /* team */
+    /* team */
 
      .team-box{
         width: calc(100% - 50px);
